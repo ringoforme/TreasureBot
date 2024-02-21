@@ -1,0 +1,5 @@
+<mapper namespace = "com.siwPresent.mapper.ProductMapper">
+    <select id="getProduct" resultType="com.siwPresent.model.Product">
+        SELECT * FROM products WHERE id = #{id}
+    </select>
+</mapper>
